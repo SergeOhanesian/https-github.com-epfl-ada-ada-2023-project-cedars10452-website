@@ -36,4 +36,8 @@ Prepare to embark on a journey that transcends the boundaries of awards and acco
 
 The histogram below displays the frequency of actors' participation alongside award-winning counterparts. Beyond the glitz of accolades, this visualization unveils the patterns and trends that emerge when actors collaborate with esteemed peers who have claimed prestigious awards. Each bar represents the frequency of an actor's engagements in projects alongside award-winning actors, shedding light on the prevalence and impact of such collaborations on career trajectories. Explore this histogram to uncover the intriguing relationships and their potential influence on the careers within the cinematic realm.
 
-![Wactor-NWactor_frequency](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/Wactor-NWactor_frequency.png)
+<!-- ![Wactor-NWactor_frequency](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/Wactor-NWactor_frequency.png) -->
+
+<img src="https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/Wactor-NWactor_frequency.png" 
+     width="400" 
+     height="500" />
