@@ -1,13 +1,21 @@
-# ADA Template Website
-# Header 1
+# Unraveling the Dynamics of Star Power, Ethnicity, and Collaborative Influence in Film Success
 
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+## Abstract
 
-## Usage
-1. Fork (copy) this repository by clicking the "Fork" button on the top right corner.
-2. Go to "Settings" -> "Pages" in your forked repository. Under "Branch" change "None" to "master" and click "Save".
-3. Edit the `_config.yml` file in your forked repository to change the site title (after `title:`) and description (after `description:`).
-4. Build your own page by editing this `README.md` (home page) and creating new `.md` files (other pages), formatting is done with standard [GitHub Markdown syntax](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax), we provide an example file `example.md` in the repository.
-**Important**: Please include ```--- layout: default ---``` (the first three line in `example.md`) at the beginning of your every newly created `.md` file.
-5. Add your new `.md` files to the site by editing the `_config.yml` file in your forked repository. Under `navigation:` add a new pair of `- title:` and `url:`, and fill their value with your page name and `.md` file name. Remember to remove the `- title:` and `url:` pair for the example page.
-6. Go back to "Settings" -> "Pages" to find your website link.
+The global film industry, estimated to be worth over $136 billion, represents an intricate tapestry of cultural, economic, and artistic elements. This project delves into the nuanced realms of actor success, movie performance, and the impact of ethnicity and collaboration in the industry.
+
+Firstly, This research investigates how casting high-profile actors, influences a movie's success and the career trajectory of co-stars. Furthermore, the study explores the effects of an actor's ethnicity on both their personal success and the international reception of their films, considering the evolving global audience demographics. The influence of accolades, such as Oscars and Golden Globes, on an actor's subsequent roles and career longevity forms a critical aspect of this analysis. Additionally, collaboration with renowned directors and producers is scrutinized for its role in shaping an actor's career, akin to Leonardo DiCaprio's frequent partnerships with Martin Scorsese.
+
+Using comprehensive databases like the CMU Movie Summary Corpus, as well as other sources, this research aims to decode patterns in the careers of successful actors and the evolution of their role choices
+
+## Introduction
+
+Step onto the grand stage of the global film industry, a captivating realm where creativity meets commerce, and individual talent intertwines with cultural dynamics. In this intricate tapestry of storytelling, economics, and artistry, the actors stand as central figures, their performances shaping not only the narratives but also the trajectory of entire cinematic experiences.
+
+Imagine the electric charge that surges through a film when high-profile actors grace its cast—how their presence not only elevates the story but often sets in motion a ripple effect that touches the careers of their co-stars. Yet, beneath the glamour lies a deeper exploration awaiting us—one that examines the profound impact of an actor's ethnicity on their personal success and the reception of their films in an ever-evolving global landscape.
+
+Join us on a journey that scrutinizes the complicated interplay between accolades such as Oscars and Golden Globes, and an actor's subsequent career choices, unlocking the doors to the realm of career longevity and role selection. But it doesn't stop there. This journey also delves into the symbiotic relationships actors form with renowned directors and producers, revealing how these collaborations sculpt and define careers.
+
+Our voyage through the extensive databases of the CMU Movie Summary Corpus and other rich sources seeks to decipher the patterns ingrained in the careers of these eminent actors. From decoding the choices they make to understanding the evolution of their roles, this exploration aims to unravel the hidden threads that weave the fabric of success in the realm of cinema.
+
+So, embark with us as we unravel the enigmatic paths that successful actors tread, unveiling the profound impact of their choices, their collaborations, and the ever-shifting dynamics of the global cinematic landscape.
