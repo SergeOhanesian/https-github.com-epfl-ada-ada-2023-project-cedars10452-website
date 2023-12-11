@@ -31,3 +31,9 @@ Imagine the resonance created when the prowess of an award-winning actor intertw
 Join us as we dissect these cinematic partnerships, unveiling the hidden layers of influence and opportunity that arise when the acclaimed and the aspiring share the screen. From dissecting the dynamics of these collaborations to understanding the subsequent career paths taken, this exploration sheds light on the impact of participating in a film alongside an award-winning counterpart.
 
 Prepare to embark on a journey that transcends the boundaries of awards and accolades, revealing the intricate dance of talent and opportunity that defines the ever-evolving landscape of the film industry.
+
+#### A first look at the collaboration situation
+
+The histogram below displays the frequency of actors' participation alongside award-winning counterparts. Beyond the glitz of accolades, this visualization unveils the patterns and trends that emerge when actors collaborate with esteemed peers who have claimed prestigious awards. Each bar represents the frequency of an actor's engagements in projects alongside award-winning actors, shedding light on the prevalence and impact of such collaborations on career trajectories. Explore this histogram to uncover the intriguing relationships and their potential influence on the careers within the cinematic realm.
+
+![Wactor-NWactor_frequency](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/Wactor-NWactor_frequency.png)
