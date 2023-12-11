@@ -1,6 +1,6 @@
 theme: jekyll-theme-minimal
-title: ADA Template Website
-description: A template website for ADA
+title: ADA project - Cedars10452
+description: A data analysis project based on the CMU Movie Summary Corpus dataset 
 show_downloads: True
 navigation:
   - title: Home
