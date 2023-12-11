@@ -1,4 +1,8 @@
 # ADA Template Website
+# Header 1
+
+This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
+
 ## Usage
 1. Fork (copy) this repository by clicking the "Fork" button on the top right corner.
 2. Go to "Settings" -> "Pages" in your forked repository. Under "Branch" change "None" to "master" and click "Save".
