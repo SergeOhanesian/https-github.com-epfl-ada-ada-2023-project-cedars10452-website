@@ -3,9 +3,6 @@ layout: default
 ---
 
 # ADA Template Website
-Text can be **bold**, _italic_, or ~~strikethrough~~.njjj
-## hedo inch enem
-
 ## Usage
 1. Fork (copy) this repository by clicking the "Fork" button on the top right corner.
 2. Go to "Settings" -> "Pages" in your forked repository. Under "Branch" change "None" to "master" and click "Save".
