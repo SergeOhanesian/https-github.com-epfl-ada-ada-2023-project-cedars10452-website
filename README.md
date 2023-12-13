@@ -55,7 +55,9 @@ Upon analyzing the dataset, intriguing trends emerged, highlighting that actors 
 As the metric for this study is box office revenues and popularity of movies, we will be conducting two seperate t-tests that will allow us to statistically verify our findings. We define the first t-test using the following null and alternative hypotheses:
 
 > H<sub>0</sub>: μ<sub>1</sub> - μ<sub>2</sub> = 0  AND  H<sub>1</sub> = μ<sub>1</sub> - μ<sub>2</sub> < 0
+
 > where μ<sub>1</sub> = mean of average revenue of movies per actor who have no collaborated with an award-winning actor.
+
 > and μ<sub>2</sub> = mean of average revenue of movies per actor who have collaborated with an award-winning actor.
 
 
@@ -64,7 +66,9 @@ By running this test, a significant result emerged with a t-statistic of -42.98 
 Following the same idea and using the same methodology we set up the second t-test using the following null and alternative hypotheses:
 
 > H<sub>0</sub>: μ<sub>1</sub> - μ<sub>2</sub> = 0  AND  H<sub>1</sub>: μ<sub>1</sub> - μ<sub>2</sub> < 0
+
 > where μ<sub>1</sub> = mean of average popularity of movies per actor who have not collaborated with an award-winning actor.
+
 > and μ<sub>2</sub> = mean of average popularity of movies per actor who have collaborated with an award-winning actor.
 
 By running this test, a significant result emerged with a t-statistic of -22.10 and a calculated p-value of 0.000. This compelling outcome leads to the following finding: the rejection of the null hypothesis that the mean of popularity of movies per actor not participating with an award winner actor is equal to the mean of popularity of movies per actor participating with an award winning actor in favor of the alternative that the mean of average popularity of movies per actor who has participated with an award-winning counterpart is greater. At a 5% significance level, this outcome matches the outcome of the first t-test, further solidifying our analysis.
