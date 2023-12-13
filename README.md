@@ -54,7 +54,7 @@ Upon analyzing the dataset, intriguing trends emerged, highlighting that actors 
 
 As the metric for this study is box office revenues and popularity of movies, we will be conducting two seperate t-tests that will allow us to statistically verify our findings. We define the first t-test using the following null and alternative hypotheses:
 
-> H<sub>0</sub>: μ<sub>1</sub> - μ<sub>2</sub> = 0  AND  H<sub>1</sub> = μ<sub>1</sub> - μ<sub>2</sub> < 0
+> H<sub>0</sub>: μ<sub>1</sub> - μ<sub>2</sub> = 0  AND  H<sub>1</sub>: μ<sub>1</sub> - μ<sub>2</sub> < 0
 
 > where μ<sub>1</sub> = mean of average revenue of movies per actor who have no collaborated with an award-winning actor.
 
@@ -80,3 +80,41 @@ In our pursuit of elucidating the influence of collaborations with award-winning
 ![boxplotpart1b](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/boxplotpart1b.png)
 
 The t-tests and box plots confirm the results obtained previously when we analyzed the dataframes. Both the popularity and the box office revenues are statistically significantly higher for actors who have participated with award-winning actors. These results seem logical; collaborating with award-winning actors, who possess proven talents, likely increases the popularity of the movies. At the same time, these movies may also reach a broader audience, which could be a reason for the higher box office revenues. After all these results provide a starting point to answering the research questions treating the impact of co-starring with high-profile actors.
+
+### Spotlight to Stardom: The Ripple Effect of Awards on Actors' Careers
+
+In this part we embark on a journey through the captivating realm of cinematic stardom, where accolades serve as milestones in the careers of actors, illuminating their trajectory within the ever-evolving landscape of the film industry. This section, delves into the profound influence that awards have on the paths and achievements of these on-screen luminaries. From dissecting the transformative impact of awards on an actor's career trajectory to unraveling the resonance of accolades within the cinematic sphere, this exploration unveils the nuanced dynamics and far-reaching consequences of industry recognition. Join us as we explore the profound ripple effect that awards create, shaping the destinies of those who stand under their luminous spotlight.
+
+#### A first look at the actors' stardom situation
+
+The following histograms serve as a portal into the realm of recognition within the film industry, portraying the nominations and victories amassed by actors on their quest for acclaim. Our exploration navigates through the flow of recognition, delving into the patterns and frequencies that dictate an actor's journey toward industry acclaim. From analyzing the frequency of nominations to unraveling the moments of triumph on award nights, this visual journey offers a comprehensive view into the landscape of accolades and the current state of the industry.
+
+![nominations-awards](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/nominations-awards.png)
+
+#### Initial Observation: Award Influence Analysis
+
+Analyzing movie metrics before and after an actor wins an award can reveal insights into the award's influence on their career and the success of the films they participate in. This comprehensive analysis transcends mere statistics. It's a journey that delves into the transformative impact of accolades on an actor's career and the cinematic resonance of the films they inhabit. By scrutinizing the movie metrics, ranging from box office revenue to critical acclaim before and after an actor's momentous win, we discover pivotal insights into the award's influence. This exploration not only illuminates the immediate ripple effect on an actor's subsequent roles and career choices but also unravels the enduring legacy left on the films themselves. Prepare to witness the metamorphosis sparked by an actor's triumph, as we navigate through the before-and-after landscape, uncovering the indelible imprint of awards on the individual.
+
+##### Revenue Increase Post Awards
+
+The below plot indicates a potential increase in box office revenue following an award win, hinting at a noteworthy surge in box office revenue subsequent to an actor's triumph at prestigious awards. This telling pattern underscores the pivotal role that accolades play in not only elevating an actor's profile but also in amplifying the commercial viability of the films they grace. The observed upturn in box office figures serves as a testament to the enhanced marketability wielded by actors post-award wins, signifying a newfound allure that resonates with audiences and potentially draws wider attention to their cinematic endeavors. This correlation between an actor's accolades and the subsequent financial performance of their films hints at a symbiotic relationship, where industry recognition amplifies an actor's star power, consequently bolstering the financial success and market appeal of the movies they inhabit. This insight unveils a fascinating dynamic within the film industry, illustrating the far-reaching implications of awards beyond mere recognition, as they intricately weave into the fabric of commercial success and market reception for these cinematic ventures.
+
+![awards-revenue](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/awards-revenue.png)
+
+##### Increased Voter Participation and Change in Rating Quality
+
+The first part of the below plot presents an intriguing discovery: a surge in audience participation in voting for movie ratings on IMDb subsequent to an actor's accolade. This surge signifies a palpable spike in audience engagement, reflecting a heightened interest and involvement spurred by an actor's triumph at prestigious awards. The resonance of an award win reverberates beyond the ceremonies, resonating deeply with audiences who seem excited to voice their opinions and contribute to the cinematic discourse. This surge in voting participation underscores the profound impact of awards on audience engagement, suggesting that industry recognition not only influences critical acclaim but also catalyzes a deeper connection between audiences and the films they adore. This heightened engagement on platforms like IMDb paints a vivid picture of the amplified interest and emotional investment that follows an actor's triumph, highlighting the pivotal role that awards play in fostering a more vibrant, participative cinematic community. It's a testament to the enduring power of awards in not just honoring talent but in fostering a stronger, more interactive relationship between cinema and its diverse audience base.
+
+The intriguing revelation from the second part of the below plot unveils a thought-provoking dynamic within the realm of audience perception and expectations. Contrary to the anticipated rise in ratings following an actor's accolade, the data hints at a surprising downturn in average ratings post-award. This unexpected trend prompts a deeper exploration into the intricate psyche of audiences and their evolving perceptions of movies featuring award-winning actors. This shift could signify a fascinating paradox where heightened acclaim and recognition place movies under a more scrutinizing lens. The decrease in average ratings might be indicative of heightened audience expectations, influenced by the elevated prestige associated with award-winning actors. It's conceivable that audiences, anticipating extraordinary cinematic experiences, hold these films to higher standards, resulting in more critical assessments. This trend results in a raise of the bar for films, prompting audiences to appraise them with a more discerning eye. This unexpected downturn in ratings, offers a fascinating insight into the complexities of audience perception and their evolving standards.
+
+![awards-votes](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/awards-votes.png)
+
+##### Popularity Surge
+
+The below plot highlights an increase in the popularity score after an award win, aligning with the notion that awards boost an actor's public visibility and appeal. This is an indication of a public fascination and appeal. The observed increase in popularity scores paints a vivid picture of the ripple effect sparked by an actor's triumph that extends to their broader appeal among audiences. Awards act as beacons, casting a luminous spotlight on an actor and their body of work, thereby fostering a more profound connection with the public. This surge in popularity scores underscores the pervasive influence of awards in amplifying an actor's charisma, resonance, and relatability among diverse audiences.
+
+![awards-popularity](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/awards-popularity.png)
+
+#### Further Observation: Statistical Analysis
+
+The revelations from our initial observations present an intriguing narrative that hints at the interplay between awards, an actor's career trajectory, and the performance of their films. However, these observations, while compelling, serve as a foundation for deeper exploration. In this section we embark on a more robust statistical analysis to solidify and unveil the underlying causal relationships. Through rigorous statistical tests, our aim is to traverse beyond correlations and establish a more concrete understanding of the cause-and-effect dynamics between awards, an actor's professional success, and the subsequent performance of their films.
