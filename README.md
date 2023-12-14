@@ -125,7 +125,7 @@ In the global film industry, an actor's ethnicity weaves an intricate thread wit
 
 #### A First Look at the Current Actors' Ethnicities
 
-Before delving deeper into our analysis, let's take an initial glimpse into the diverse landscape of current actors. This section offers a panoramic view, highlighting the representation and distribution of actors across various ethnic groups within the cinematic sphere. By examining the numbers and proportions within each ethnic category, we unveil a preliminary understanding of the industry's diversity. This initial overview lays the groundwork for our exploration into how these diverse ethnicities navigate the pathways of success and influence the reception of their films on the global stage. The below barplot displays top 10 ethnicities in terms of number of actors.
+Before delving deeper into our analysis, let's take an initial glimpse into the diverse landscape of current actors. This section offers a panoramic view, highlighting the representation and distribution of actors across various ethnic groups within the cinematic sphere. By examining the numbers and proportions within each ethnic category, we unveil a preliminary understanding of the industry's diversity. This initial overview lays the groundwork for our exploration into how these diverse ethnicities navigate the pathways of success and influence the reception of their films on the global stage. The below barplot displays the top 10 ethnicities in terms of number of actors.
 
 ![top10ethnicities](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/top10ethnicities.png)
 
@@ -135,7 +135,7 @@ This section sheds light on the fascinating correlation between an actor's ethni
 
 ![top10revenue-ethnicities](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/top10revenue-ethnicities.png)
 
-But we notice that the actor counts for these ethnicities are very low (<10). Therefore, we will introduce a cut-off point. We will require at least 10 actors from one ethnicity for the ethnicity to be considered in this part of our analysis. After applying the changes required we got the following results displayed in the below barchart.
+But we notice that the actor counts for some of these ethnicities are very low (<10). Therefore, we will introduce a cut-off point. We will require at least 10 actors from one ethnicity for the ethnicity to be considered in this part of our analysis. After applying the changes required we got the following results displayed in the below barchart.
 
 ![top10revenue-ethnicities-2](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/top10revenue-ethnicities-2.png)
 
@@ -159,3 +159,81 @@ Within the ever-evolving landscape of cinema, the representation of diverse ethn
 
 - We analyze the ethnicity representation in movies over time to track the progress of diversity and inclusivity in the film industry. It offers a visual insight into how the portrayal of various ethnic groups has changed, potentially reflecting shifts in societal attitudes and stereotypes. The chart indicates a trend towards greater diversity in recent decades, suggesting a response to increased awareness and demand for representation, which makes sense. 
 - It is very important to note that the ethnicities given from the dataset can be clustered into more compact and inclusive ethnicities for better analysis, which we will conduct in the following sections.
+
+#### Ethnicity Clustering: Unifying Diversity for Deeper Insights
+
+Immediately we notice a huge overlap between some of the ethnicities (for example white people and White Americans). This will be tackled by clustering these ethnicities into more extensive ones.
+
+In our pursuit of comprehensively understanding the nuanced landscape of ethnic representation within the film industry, we encounter a fascinating convergence of ethnicities that often share substantial similarities. This section ventures into the realm of _Ethnicity Clustering_,which gives a strategic approach aimed at combining overlapping ethnicities into more expansive and cohesive groups. By clustering these ethnicities, we aspire to create a more comprehensive and nuanced lens through which to analyze and interpret the diversity landscape within films. This process is poised to  offer a more holistic understanding of how these collective ethnic representations shape the cinematic narrative. Join us as we embark on this journey of consolidation, seeking to merge similar threads and enrich our exploration of diversity within the captivating world of film.
+
+### Behind the Scenes Alchemy
+
+Within the intricate ecosystem of the film industry, the collaborations forged between actors and esteemed directors or producers stand as pivotal milestones in shaping not just careers, but the very essence of cinematic storytelling. This section ventures into the profound impact of these collaborations, spotlighting how partnerships with acclaimed directors and producers serve as transformative catalysts within an actor's career trajectory. Beyond mere collaborations, these alliances offer more than just roles, they provide a gateway to heightened visibility, diverse and demanding characters, and often, an amplified resonance at the box office. Join us in unraveling the symbiotic relationship between actors and the luminaries behind the camera, as we explore how these collaborations carve the pathways to success, prestige, and enduring cinematic legacies.
+
+#### Exploring the Interplay: Nominations/Awards Won and Box Office Revenue/Vote Average Correlation
+
+In this section, we embark on a captivating exploration into the intricate interplay between nominations and awards won and the cinematic metrics of box office revenue and vote average. This analysis seeks to unveil the nuanced correlations that exist between the industry accolades a movie crew receives and the commercial success or critical reception of their films. By delving into this intersection, we aim to decode how an director's recognition in the form of nominations and awards intertwines with the financial performance and audience appreciation of the movies they inhabit. Join us in deciphering this complex relationship, as we unravel the potential influences and connections that underpin the dynamic landscape of awards recognition and cinematic acclaim. In order to understand these correlations, we make use of two statistical methods: the Pearson correlation and the Spearman correlations. We ran both of these tests on each scenario we are trying to study, and obtained the following results:
+
+1. ***Total movie crew member nominations and movie box office revenues***
+
+> Pearson correlation:  PearsonRResult(statistic=0.29, pvalue=1.4e-149)
+
+> Spearman correlation:  SignificanceResult(statistic=0.24, pvalue=4.75e-103)
+
+> The Pearson correlation is significant.
+
+> The Spearman correlation is significant.
+
+1. ***Total movie crew member awards won and movie box office revenues***
+
+> Pearson correlation:  PearsonRResult(statistic=0.28, pvalue=8.27e-139)
+
+> Spearman correlation:  SignificanceResult(statistic=0.16, pvalue=1.47e-47)
+
+> The Pearson correlation is significant.
+
+> The Spearman correlation is significant.
+
+1. ***Total movie crew member nominations and vote average***
+
+> Pearson correlation:  PearsonRResult(statistic=0.30, pvalue=4.35e-167)
+
+> Spearman correlation:  SignificanceResult(statistic=0.39, pvalue=2.90e-275)
+
+> The Pearson correlation is significant.
+
+> The Spearman correlation is significant.
+
+1. ***Total movie crew member awards won and vote average***
+
+> Pearson correlation:  PearsonRResult(statistic=0.21, pvalue=3.10e-78)
+
+> Spearman correlation:  SignificanceResult(statistic=0.27, pvalue=1.63e-134)
+
+> The Pearson correlation is significant.
+
+> The Spearman correlation is significant.
+
+#### Tom Hardy's Career Post-"Inception"
+
+In this section we study the case of Tom Hardy which will serve as a compelling situation illustrating the transformative power of collaborations and breakout roles. Following his standout performance in Christopher Nolan's Inception, Hardy's journey catapulted into a realm of high-profile projects, setting a stage for a career trajectory marked by versatility and acclaim. Some of the notable works of Tom Hardy post-Inception are: 
+
+- **"The Dark Knight Rises" (Directed by Christopher Nolan):**
+  - Hardy's role as the formidable Bane showcased his **versatility** and cemented his status as a leading actor in Hollywood.
+
+- **"Mad Max: Fury Road":**
+  - A lead role in this film marked a **critical and commercial success**, demonstrating Hardy's range and mass appeal.
+
+- **"Venom"** in the Superhero Genre:
+  - His portrayal in "Venom" solidified Hardy's capability to **anchor a blockbuster film** with his dynamic performance.
+
+- **"Peaky Blinders" - A Critically Acclaimed Series:**
+  - Although not in our dataset as it is a TV series, Hardy's involvement in Peaky Blinders highlighted his skill in **long-form storytelling**, adding a significant layer to his acting portfolio.
+
+This analysis of Hardy's career stands as a beacon, illuminating the potential ripple effect that breakout roles and collaborations with esteemed directors can have on an actor's path. As we delve deeper into the industry landscape, this case becomes a cornerstone for extrapolating and understanding similar phenomena that shape the journeys of actors within the cinematic sphere.
+
+The graphs below display the difference in movie box office revenues and vote average before and after Tom Hardy's appearence in the Inception. This serves as a prime example of how strategic collaborations with notable directors and producers can not only diversify an actor's portfolio but also significantly boost their marketability and box office draw. This pattern is a testament to the power of strategic collaborations in the film industry to propel an actor's career to new heights.
+
+![TomHardy-revenue](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/temporaltrends-ethnicities.png)
+
+![TomHardy-vote](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/temporaltrends-ethnicities.png)
