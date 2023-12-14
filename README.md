@@ -218,22 +218,22 @@ In this section, we embark on a captivating exploration into the intricate inter
 
 In this section we study the case of Tom Hardy which will serve as a compelling situation illustrating the transformative power of collaborations and breakout roles. Following his standout performance in Christopher Nolan's Inception, Hardy's journey catapulted into a realm of high-profile projects, setting a stage for a career trajectory marked by versatility and acclaim. Some of the notable works of Tom Hardy post-Inception are: 
 
-- **"The Dark Knight Rises" (Directed by Christopher Nolan):**
-  - Hardy's role as the formidable Bane showcased his **versatility** and cemented his status as a leading actor in Hollywood.
+- **"The Dark Knight Rises":**
+  - Hardy's role as the formidable Bane showcased his versatility and cemented his status as a leading actor in Hollywood.
 
 - **"Mad Max: Fury Road":**
-  - A lead role in this film marked a **critical and commercial success**, demonstrating Hardy's range and mass appeal.
+  - A lead role in this film marked a critical and commercial success, demonstrating Hardy's range and mass appeal.
 
 - **"Venom"** in the Superhero Genre:
-  - His portrayal in "Venom" solidified Hardy's capability to **anchor a blockbuster film** with his dynamic performance.
+  - His portrayal in "Venom" solidified Hardy's capability to anchor a blockbuster film with his dynamic performance.
 
 - **"Peaky Blinders" - A Critically Acclaimed Series:**
-  - Although not in our dataset as it is a TV series, Hardy's involvement in Peaky Blinders highlighted his skill in **long-form storytelling**, adding a significant layer to his acting portfolio.
+  - Although not in our dataset as it is a TV series, Hardy's involvement in Peaky Blinders highlighted his skill in long-form storytelling, adding a significant layer to his acting portfolio.
 
 This analysis of Hardy's career stands as a beacon, illuminating the potential ripple effect that breakout roles and collaborations with esteemed directors can have on an actor's path. As we delve deeper into the industry landscape, this case becomes a cornerstone for extrapolating and understanding similar phenomena that shape the journeys of actors within the cinematic sphere.
 
 The graphs below display the difference in movie box office revenues and vote average before and after Tom Hardy's appearence in the Inception. This serves as a prime example of how strategic collaborations with notable directors and producers can not only diversify an actor's portfolio but also significantly boost their marketability and box office draw. This pattern is a testament to the power of strategic collaborations in the film industry to propel an actor's career to new heights.
 
-![TomHardy-revenue](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/temporaltrends-ethnicities.png)
+![TomHardy-revenue](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/TomHardy-revenue.png)
 
-![TomHardy-vote](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/temporaltrends-ethnicities.png)
+![TomHardy-vote](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/TomHardy-vote.png)
