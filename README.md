@@ -36,7 +36,7 @@ Prepare to embark on a journey that transcends the boundaries of awards and acco
 
 The histogram below displays the frequency of actors' participation alongside award-winning counterparts. Beyond the glitz of accolades, this visualization unveils the patterns and trends that emerge when actors collaborate with esteemed peers who have claimed prestigious awards. Each bar represents the frequency of an actor's engagements in projects alongside award-winning actors, shedding light on the prevalence and impact of such collaborations on career trajectories. Explore this histogram to uncover the intriguing relationships and their potential influence on the careers within the cinematic realm.
 
-![Wactor-NWactor_frequency](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/Wactor-NWactor_frequency.png)
+![Wactor-NWactor_frequency](/img/Wactor-NWactor_frequency.png)
 
 In order to get some numerical figures, we divided our actors to two groups:
 *   Actors that never participated with award winning actors
@@ -75,9 +75,9 @@ By running this test, a significant result emerged with a t-statistic of -22.10 
 
 In our pursuit of elucidating the influence of collaborations with award-winning actors on the financial success within the film industry, we employed box plots as a visual tool to complement our statistical analysis. These graphical representations vividly portray the distribution of average revenue per actor, offering a compelling visual narrative that aligns with our earlier statistical findings. The box plots exhibit a stark distinction between actors who have engaged in projects with award-winning counterparts and those who haven't. Notably, the median and distribution of average revenue per actor who participated in films with award-winning peers visibly outshine their counterparts who haven't had such collaborations.
 
-![boxplotpart1a](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/boxplotpart1a.png)
+![boxplotpart1a](/img/boxplotpart1a.png)
 
-![boxplotpart1b](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/boxplotpart1b.png)
+![boxplotpart1b](/img/boxplotpart1b.png)
 
 The t-tests and box plots confirm the results obtained previously when we analyzed the dataframes. Both the popularity and the box office revenues are statistically significantly higher for actors who have participated with award-winning actors. These results seem logical; collaborating with award-winning actors, who possess proven talents, likely increases the popularity of the movies. At the same time, these movies may also reach a broader audience, which could be a reason for the higher box office revenues. After all these results provide a starting point to answering the research questions treating the impact of co-starring with high-profile actors.
 
@@ -89,7 +89,7 @@ In this part we embark on a journey through the captivating realm of cinematic s
 
 The following histograms serve as a portal into the realm of recognition within the film industry, portraying the nominations and victories amassed by actors on their quest for acclaim. Our exploration navigates through the flow of recognition, delving into the patterns and frequencies that dictate an actor's journey toward industry acclaim. From analyzing the frequency of nominations to unraveling the moments of triumph on award nights, this visual journey offers a comprehensive view into the landscape of accolades and the current state of the industry.
 
-![nominations-awards](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/nominations-awards.png)
+![nominations-awards](/img/nominations-awards.png)
 
 ### Initial Observation: Award Influence Analysis
 
@@ -99,7 +99,7 @@ Analyzing movie metrics before and after an actor wins an award can reveal insig
 
 The below plot indicates a potential increase in box office revenue following an award win, hinting at a noteworthy surge in box office revenue subsequent to an actor's triumph at prestigious awards. This telling pattern underscores the pivotal role that accolades play in not only elevating an actor's profile but also in amplifying the commercial viability of the films they grace. The observed upturn in box office figures serves as a testament to the enhanced marketability wielded by actors post-award wins, signifying a newfound allure that resonates with audiences and potentially draws wider attention to their cinematic endeavors. This correlation between an actor's accolades and the subsequent financial performance of their films hints at a symbiotic relationship, where industry recognition amplifies an actor's star power, consequently bolstering the financial success and market appeal of the movies they inhabit. This insight unveils a fascinating dynamic within the film industry, illustrating the far-reaching implications of awards beyond mere recognition, as they intricately weave into the fabric of commercial success and market reception for these cinematic ventures.
 
-![awards-revenue](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/awards-revenue.png)
+![awards-revenue](/img/awards-revenue.png)
 
 #### Increased Voter Participation and Change in Rating Quality
 
@@ -107,13 +107,13 @@ The first part of the below plot presents an intriguing discovery: a surge in au
 
 The intriguing revelation from the second part of the below plot unveils a thought-provoking dynamic within the realm of audience perception and expectations. Contrary to the anticipated rise in ratings following an actor's accolade, the data hints at a surprising downturn in average ratings post-award. This unexpected trend prompts a deeper exploration into the intricate psyche of audiences and their evolving perceptions of movies featuring award-winning actors. This shift could signify a fascinating paradox where heightened acclaim and recognition place movies under a more scrutinizing lens. The decrease in average ratings might be indicative of heightened audience expectations, influenced by the elevated prestige associated with award-winning actors. It's conceivable that audiences, anticipating extraordinary cinematic experiences, hold these films to higher standards, resulting in more critical assessments. This trend results in a raise of the bar for films, prompting audiences to appraise them with a more discerning eye. This unexpected downturn in ratings, offers a fascinating insight into the complexities of audience perception and their evolving standards.
 
-![awards-votes](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/awards-votes.png)
+![awards-votes](/img/awards-votes.png)
 
 #### Popularity Surge
 
 The below plot highlights an increase in the popularity score after an award win, aligning with the notion that awards boost an actor's public visibility and appeal. This is an indication of a public fascination and appeal. The observed increase in popularity scores paints a vivid picture of the ripple effect sparked by an actor's triumph that extends to their broader appeal among audiences. Awards act as beacons, casting a luminous spotlight on an actor and their body of work, thereby fostering a more profound connection with the public. This surge in popularity scores underscores the pervasive influence of awards in amplifying an actor's charisma, resonance, and relatability among diverse audiences.
 
-![awards-popularity](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/awards-popularity.png)
+![awards-popularity](/img/awards-popularity.png)
 
 ### Further Observation: Statistical Analysis
 
@@ -127,17 +127,17 @@ In the global film industry, an actor's ethnicity weaves an intricate thread wit
 
 Before delving deeper into our analysis, let's take an initial glimpse into the diverse landscape of current actors. This section offers a panoramic view, highlighting the representation and distribution of actors across various ethnic groups within the cinematic sphere. By examining the numbers and proportions within each ethnic category, we unveil a preliminary understanding of the industry's diversity. This initial overview lays the groundwork for our exploration into how these diverse ethnicities navigate the pathways of success and influence the reception of their films on the global stage. The below barplot displays the top 10 ethnicities in terms of number of actors.
 
-![top10ethnicities](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/top10ethnicities.png)
+![top10ethnicities](/img/top10ethnicities.png)
 
 ### Average Movie Revenue per Actor per Ethnicity 
 
 This section sheds light on the fascinating correlation between an actor's ethnicity and the average movie revenue they generate. By dissecting these revenue metrics across various ethnicities, we uncover nuanced insights into the economic impact and opportunities experienced within the cinematic realm. This initial glimpse offers a compelling narrative, providing a preliminary understanding of how an actor's ethnicity may intersect with financial success within the dynamic and diverse landscape of film. However, this is a preliminary analysis of whether an actor's ethnicity influences a movie's box office success. By comparing average revenues of movies featuring actors from different ethnicities and then adjusting these averages based on the number of actors in each group, we aim to see whether some ethnicities are associated with higher revenues in a more equitable and representative way. The below barplot displays the top 10 average movie revenues generated per actor by ethnicity.
 
-![top10revenue-ethnicities](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/top10revenue-ethnicities.png)
+![top10revenue-ethnicities](/img/top10revenue-ethnicities.png)
 
 But we notice that the actor counts for some of these ethnicities are very low (<10). Therefore, we will introduce a cut-off point. We will require at least 10 actors from one ethnicity for the ethnicity to be considered in this part of our analysis. After applying the changes required we got the following results displayed in the below barchart.
 
-![top10revenue-ethnicities-2](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/top10revenue-ethnicities-2.png)
+![top10revenue-ethnicities-2](/img/top10revenue-ethnicities-2.png)
 
 - These graphs above are a comparison of average movie revenue per actor before and after applying a filter for a minimum of ten actors per ethnicity. It's important to study this because it helps us understand the commercial impact of having actors of different ethnicities in movies. From the first to the second graph, we see a change in which ethnicities appear, suggesting that some groups have fewer actors but still a significant impact on revenue (probably irrelevant due to sample size). 
 - However, because the analysis is not highly conclusive, it's a starting point that indicates the need for a more in-depth look at diversity in film and its economic implications. It shows a glimpse of the potential market performance of movies with diverse casts but requires further study to draw strong conclusions, which we will delve deep into as we proceed.
@@ -146,7 +146,7 @@ But we notice that the actor counts for some of these ethnicities are very low (
 
 This section unveils an intriguing exploration into the average movie ratings across various ethnicities, offering insights into the intersection between an actor's ethnic background and the critical acclaim their films receive. By analyzing these ratings, we embark on a journey that navigates the subtle interplay between ethnicity and audience perceptions, painting a preliminary picture of how diverse cultural backgrounds may influence the cinematic narratives' reception. This overview serves as a gateway into understanding the dynamic relationship between an actor's ethnicity and the audience's appraisal, providing a nuanced glimpse into the multifaceted dimensions of film appreciation. The below barplot displays the top 10 average movie rating by ethnicity.
 
-![top10rating-ethnicities](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/top10rating-ethnicities.png)
+![top10rating-ethnicities](/img/top10rating-ethnicities.png)
 
 - The graph shows movie ratings linked to actors' ethnicities. This simple plot indicates that films with Czech actors get the best ratings, but other ethnicities are not far behind. This means people are enjoying movies with actors from different backgrounds in general.
 - It is noteworthy to mention that we used a logarithmic scale on the y-axis because the ratings are very close to each other and the plot doesn't really show any value otherwise.
@@ -155,7 +155,7 @@ This section unveils an intriguing exploration into the average movie ratings ac
 
 Within the ever-evolving landscape of cinema, the representation of diverse ethnicities stands as a mirror reflecting societal shifts and evolving narratives. This section embarks on a temporal journey, exploring the dynamic flux in ethnicity representation across cinematic epochs. Through a captivating visual narrative, we unveil the changing landscape of ethnic diversity within movies over time. The below plot serves as a lens through which we witness the flow of representation, observing the evolving strides, setbacks, and the nuanced patterns that shape the portrayal of diverse ethnicities across different eras of cinematic storytelling. 
 
-![temporaltrends-ethnicities](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/temporaltrends-ethnicities.png)
+![temporaltrends-ethnicities](/img/temporaltrends-ethnicities.png)
 
 - We analyze the ethnicity representation in movies over time to track the progress of diversity and inclusivity in the film industry. It offers a visual insight into how the portrayal of various ethnic groups has changed, potentially reflecting shifts in societal attitudes and stereotypes. The chart indicates a trend towards greater diversity in recent decades, suggesting a response to increased awareness and demand for representation, which makes sense. 
 - It is very important to note that the ethnicities given from the dataset can be clustered into more compact and inclusive ethnicities for better analysis, which we will conduct in the following sections.
@@ -234,9 +234,9 @@ This analysis of Hardy's career stands as a beacon, illuminating the potential r
 
 The graphs below display the difference in movie box office revenues and vote average before and after Tom Hardy's appearence in the Inception. This serves as a prime example of how strategic collaborations with notable directors and producers can not only diversify an actor's portfolio but also significantly boost their marketability and box office draw. This pattern is a testament to the power of strategic collaborations in the film industry to propel an actor's career to new heights.
 
-![TomHardy-revenue](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/TomHardy-revenue.png)
+![TomHardy-revenue](/img/TomHardy-revenue.png)
 
-![TomHardy-vote](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/TomHardy-vote.png)
+![TomHardy-vote](/img/TomHardy-vote.png)
 
 ## Careers Evolution
 
@@ -246,7 +246,7 @@ Within the dynamic evolution of an actor's career lies a fascinating journey mar
 
 Exploring the relationship between an actor's age and the distribution of movie genres they participate in unveils an intriguing tapestry of patterns within the film industry. This section ventures into the captivating intersection where an actor's age intersects with the diverse array of movie genres they inhabit at the time of release. By dissecting this correlation, we unravel the nuanced patterns that emerge, shedding light on how an actor's age potentially influences the genres they gravitate towards or are offered. These insights offer a glimpse into the complex dynamics that shape an actor's choices, the industry's preferences, and the audience expectations, encapsulating a mosaic of factors that interplay in defining the cinematic landscape across different age brackets. As a first step, we plotted the distribution of movie genres against the age of actors at the time of release. The plot below shows the distribution of movie genres across different actor age buckets.
 
-![genre-agebracket](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/genre-agebracket.png)
+![genre-agebracket](/img/genre-agebracket.png)
 
 From this plot we can take away some interesting observations:
 
