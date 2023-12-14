@@ -269,4 +269,4 @@ However, in his later career, De Niro exhibited a notable shift in the types of 
 
 The plot below displays the distribution of movie genres against the age of Robert De Niro at the time of release. 
 
-![age-DeNiro](https://github.com/SergeOhanesian/https-github.com-epfl-ada-ada-2023-project-cedars10452-website/blob/master/img/age-DeNiro.png)
+![age-DeNiro](/img/age-DeNiro.png)
