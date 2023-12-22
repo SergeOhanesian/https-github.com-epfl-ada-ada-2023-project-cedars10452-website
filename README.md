@@ -117,9 +117,15 @@ In our pursuit of elucidating the influence of collaborations with award-winning
 
 The t-tests and box plots confirm the results obtained previously when we analyzed the dataframes. Both the popularity and the box office revenues are statistically significantly higher for actors who have participated with award-winning actors. These results seem logical; collaborating with award-winning actors, who possess proven talents, likely increases the popularity of the movies. At the same time, these movies may also reach a broader audience, which could be a reason for the higher box office revenues. After all these results provide a starting point to answering the research questions treating the impact of co-starring with high-profile actors.
 
-### Assessing the Influence of Award-Winning Actors on the Careers of Their Peers: A Time Series Analysis
+Transitioning from our previous analysis of the average revenue and popularity among actors who have and have not collaborated with award-winning actors, we now advance to a time series analysis. This new phase focuses on scrutinizing the effects of collaborations between actors and award-winning peers on three specific aspects: box office revenue, popularity, and the likelihood of winning an award post-collaboration.
 
-To further evaluate the impact of collaborating with an award-winning actor, we will now transition to a time series approach. This will allow us to assess the cinematic success of actors who have worked with award-winning actors but have never won awards themselves, both before and after these collaborations
+In this segment, we will closely examine how actors' careers are impacted before and after collaborating with award-winning actors. Our analysis will delve into whether such collaborations lead to a tangible increase in box office success, a boost in popularity, and an enhanced probability of winning awards. This targeted approach aims to provide a clearer understanding of the real value these prestigious collaborations bring to actors' careers.
+
+## Assessing the Influence of Award-Winning Actors on the Careers of Their Peers: A Time Series Analysis
+
+This time series approach will allow us to assess the cinematic success of actors who have worked with award-winning actors but have never won awards themselves, both before and after these collaborations
+
+### Time Series Analysis of Actors: Comparing Box Office Revenues and Popularity Before and After Collaborating with Award-Winning Actors
 
 In this section, we will perform a time series analysis for each participating actor, comparing their average box office revenues and popularity before and after their first collaboration with an award-winning actor.
 
@@ -150,6 +156,8 @@ Furthermore, the results, as illustrated in the pie chart below, indicate that o
 ![piechartbeneficialcollab](/img/piechartbeneficialcollab.png)
 
 In conclusion, the importance of collaborating with award-winning actors cannot be overstated. These partnerships seem to not only enhance the immediate visibility and credibility of actors but also play a pivotal role in paving their path towards receiving accolades in the future. This trend highlights the interconnected nature of success in the film industry, where the collaboration and mentorship of established professionals can have a lasting impact on the careers of up-and-coming actors.
+
+As observed in our analysis, three key aspects - box office revenue, popularity, and the likelihood of winning an award post-collaboration - all show an increase following collaborations with award-winning actors
 
 ## Spotlight to Stardom: The Ripple Effect of Awards on Actors' Careers
 
