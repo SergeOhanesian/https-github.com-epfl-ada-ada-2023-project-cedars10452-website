@@ -310,3 +310,5 @@ The plot below displays the distribution of movie genres against the age of Robe
 <iframe src="./img/network_graph.html" height="500" width="100%"></iframe>
 
 ![selfie](/img/selfie.png)
+
+![merrychristmas](/img/merrychristmas.png)
