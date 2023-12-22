@@ -159,6 +159,57 @@ In conclusion, the importance of collaborating with award-winning actors cannot 
 
 As observed in our analysis, three key aspects - box office revenue, popularity, and the likelihood of winning an award post-collaboration - all show an increase following collaborations with award-winning actors
 
+## Behind the Scenes Alchemy
+
+In the fascinating world of cinema, where every movie is a unique blend of talent and creativity, we often ponder the role of those behind the camera in shaping the success of a film. Moving away from the glittering allure of star-studded casts, our focus turns to the often-unseen architects of film, the directors, writers and producers. In this chapter of our cinematic exploration, we delve into the nuanced impact of collaboration with acclaimed directors, writers and producers on an actor's career trajectory. We sought to understand how working with award-winning and nominated industry veterans influences an actor’s journey.
+
+### The Catalyst of Tom Hardy's Career: A Prelude to Our Analysis
+
+Before embarking on our comprehensive journey through the film industry's network, we turned our lens to a particularly illustrative case: the career transformation of Tom Hardy following his role in "Inception." This analysis was motivated by Hardy's remarkable ascent post his involvement in Christopher Nolan's masterpiece, which served as a pivotal moment in his career.
+
+Our analysis took a deep dive into the tangible impact of "Inception" on Hardy's career. We specifically examined the change in box office revenues and movie ratings before and after this defining role. The results were striking: a noticeable elevation in both the commercial success and critical acclaim of his films post-"Inception."
+
+![TomHardy-revenue](/img/TomHardy-revenue.png)
+
+This case study of Tom Hardy stands as a vivid illustration of the transformative power of significant roles and collaborations in an actor's journey. It set the stage for our broader exploration, providing a lens through which we could examine similar patterns across the industry. Hardy's story is a testament to the impact that strategic collaborations and breakout roles can have, not just in diversifying an actor's portfolio, but in catapulting them to new levels of fame and success. As we delve into the wider analysis of how collaborations with acclaimed directors and producers shape careers, Tom Hardy's post-"Inception" journey serves as a beacon, highlighting the extraordinary potential of strategic partnerships in the cinematic world.
+
+### Unraveling the Impact of Crew Accolades on Movie Success
+
+We began by examining a compelling question: Do the awards and nominations of a film's crew influence its box office and critical success? Our initial statistical foray revealed intriguing correlations:
+
+1. **Box Office Revenue**: A positive correlation emerged between the accolades of the crew (both awards won and nominations) and the financial performance of their movies.
+
+2. **Movie Ratings**: We observed a similar trend linking crew awards to higher average ratings for their films.
+
+These initial findings painted a picture where the recognition of a film's crew seems to be a harbinger of its success, both in commercial appeal and critical acclaim. This insight sets the stage for a deeper dive into the film industry's network, to further explore how the collective achievements of directors, writers, and producers intertwine with the stories they bring to life on screen. Motivated by these revelations, we embarked on a methodical quest, constructing an intricate network graph specifically designed to map the collaborative relationships between actors and the crews in the cinema industry. In this focused network, each node represented either an actor or a key crew member: directors, writers, and producers known for their award-winning and nominated work. The connections, or edges, between these nodes signified collaborations on various film projects. To further enrich our analysis, we showcased a subgraph highlighting the top nodes of the network. This subset offered an intriguing glimpse into the core of the industry's collaborative web, featuring prominent figures such as Robert DeNiro and influential entities like 20th Century Fox. The presence of these key players in the subgraph provided a fascinating perspective on the central, interconnected roles they play in shaping cinematic narratives.
+
+Our aim was clear: to meticulously measure and analyze the impact of these specific collaborations between actors and their distinguished crews. We wanted to see how working with accomplished directors and producers influenced various aspects of an actor's success, ranging from critical acclaim and box office performance to audience reception and admiration. This tailored network analysis was poised to uncover the nuanced dynamics of how actors' careers are potentially shaped and transformed through their associations with award-recognized professionals in the film industry.
+
+<iframe src="./img/network_graph.html" height="500" width="100%"></iframe>
+
+![selfie](/img/selfie.png)
+
+### Exploring the Influence of Community Affiliation
+
+In our quest to comprehend the intricate landscape of the film industry, we extended our analysis to examine the influence of community affiliation on various success metrics. Our ANOVA results revealed pronounced differences in average film ratings, box office revenues, vote counts, and neighbor centrality among different communities, suggesting that these groups possess distinct traits and advantages. This deeper dive, enhanced by geometric mean visualizations, brings to the forefront the significant impact of community dynamics on an actor's career trajectory. It prompts us to ponder: Does the essence of a community shape its members, or do the members define the community's character?
+
+![ANOVA](/img/ANOVA.jpeg)
+
+### The Interplay of Community Attributes and Success
+
+Our community analysis delves into the distribution of awards, nominations, and the network centrality of crew members across various communities. We seek to unravel whether belonging to a particular community inherently bestows shared characteristics or influences these attributes. The emerging patterns from our visualizations and tests open up a realm of intriguing possibilities. Is the congruence observed within a community merely a reflection of shared experiences and opportunities, or does it indicate a deeper, more influential bond shaped by the community's collective identity?
+
+This line of inquiry lays the groundwork for future explorations into the causative dynamics within the film industry's network. It challenges us to consider how the subtle forces of community affiliation might steer an individual's or a group's path towards success and influence within the cinematic domain. Our findings not only shed light on the present state of these communities but also invite further investigation into the evolving nature of these collaborative networks in shaping the narratives of success in the cinema industry. Motivated by these results, we utilized our network and identified communities to drive the regression analysis forward. This approach set the stage for an intriguing plot twist in our cinematic narrative. We uncovered a remarkable link: an actor's success, encapsulated in ratings, box office receipts, and audience votes of his movies, was intertwined with the stature of their professional network, particularly the crew they collaborated with. This narrative took a dramatic turn as we delved into a comparison of two distinct casts of actors: those who had collaborated with acclaimed crews and those who had not. The data unfurled an engrossing story:
+
+![boxplotadam](/img/boxplotadam.jpeg)
+
+- **Actors with Acclaimed Crew Connections** showcased significantly higher neighbor centrality in their networks, with median degrees reaching 4031, far surpassing their counterparts. This observation is crucial, as it reflects the influence and standing of the crews they work with. Given our regression analysis linking neighbor centrality to career success, this finding suggests a profound impact on the actors' career trajectories. Actors in this group, by virtue of their association with highly experienced and recognized crews, likely find themselves in a more advantageous position, accessing higher-quality projects and elevating their stature in the industry.
+
+- **Actors Not Collaborating with Acclaimed Crew**, in contrast, were more on the fringes of the industry's network, potentially curtailing their pathways to high-profile projects and collaborations.
+
+The convergence of these insights, from the regression analysis to the stark contrasts between the two groups, narrated a tale of opportunity and triumph. It hinted that an actor's career trajectory is not solely carved by their talent but is also significantly molded by the influence and acclaim of their professional network. 
+Our data-driven journey through the complex network culminates in a nuanced understanding of the industry. Collaborations with esteemed crews were not mere entries on a resume; they were potential catalysts, propelling actors toward heightened acclaim, commercial success, and audience adoration.
+
 ## Spotlight to Stardom: The Ripple Effect of Awards on Actors' Careers
 
 In the grand narrative of Hollywood, winning an award isn't just a moment of glory; it's a chapter that heralds a new era in an actor's career. Our exploration into the film industry's starlit realm reveals a fascinating story: the impact of awards on an actor's trajectory. It's like a subtle yet potent spell cast upon their journey, bringing a noticeable shift in the landscape of their success.
@@ -199,78 +250,6 @@ What these numbers reveal is a deeper story within the film industry. Awards are
 
 In summary, this data-driven exploration into the world of cinema underscores the powerful role of accolades in shaping an actor's career, not just in terms of artistic acknowledgment but also in driving box office success.
 
-## Behind the Scenes Alchemy
-
-Within the intricate ecosystem of the film industry, the collaborations forged between actors and esteemed directors or producers stand as pivotal milestones in shaping not just careers, but the very essence of cinematic storytelling. This section ventures into the profound impact of these collaborations, spotlighting how partnerships with acclaimed directors and producers serve as transformative catalysts within an actor's career trajectory. Beyond mere collaborations, these alliances offer more than just roles, they provide a gateway to heightened visibility, diverse and demanding characters, and often, an amplified resonance at the box office. Join us in unraveling the symbiotic relationship between actors and the luminaries behind the camera, as we explore how these collaborations carve the pathways to success, prestige, and enduring cinematic legacies.
-
-### Exploring the Interplay: Nominations/Awards Won and Box Office Revenue/Vote Average Correlation
-
-In this section, we embark on a captivating exploration into the intricate interplay between nominations and awards won and the cinematic metrics of box office revenue and vote average. This analysis seeks to unveil the nuanced correlations that exist between the industry accolades a movie crew receives and the commercial success or critical reception of their films. By delving into this intersection, we aim to decode how an director's recognition in the form of nominations and awards intertwines with the financial performance and audience appreciation of the movies they inhabit. Join us in deciphering this complex relationship, as we unravel the potential influences and connections that underpin the dynamic landscape of awards recognition and cinematic acclaim. In order to understand these correlations, we make use of two statistical methods: the Pearson correlation and the Spearman correlations. We ran both of these tests on each scenario we are trying to study, and obtained the following results:
-
-1. ***Total movie crew member nominations and movie box office revenues***
-
-> Pearson correlation:  PearsonRResult(statistic=0.29, pvalue=1.4e-149)
-
-> Spearman correlation:  SignificanceResult(statistic=0.24, pvalue=4.75e-103)
-
-> The Pearson correlation is significant.
-
-> The Spearman correlation is significant.
-
-1. ***Total movie crew member awards won and movie box office revenues***
-
-> Pearson correlation:  PearsonRResult(statistic=0.28, pvalue=8.27e-139)
-
-> Spearman correlation:  SignificanceResult(statistic=0.16, pvalue=1.47e-47)
-
-> The Pearson correlation is significant.
-
-> The Spearman correlation is significant.
-
-1. ***Total movie crew member nominations and vote average***
-
-> Pearson correlation:  PearsonRResult(statistic=0.30, pvalue=4.35e-167)
-
-> Spearman correlation:  SignificanceResult(statistic=0.39, pvalue=2.90e-275)
-
-> The Pearson correlation is significant.
-
-> The Spearman correlation is significant.
-
-1. ***Total movie crew member awards won and vote average***
-
-> Pearson correlation:  PearsonRResult(statistic=0.21, pvalue=3.10e-78)
-
-> Spearman correlation:  SignificanceResult(statistic=0.27, pvalue=1.63e-134)
-
-> The Pearson correlation is significant.
-
-> The Spearman correlation is significant.
-
-### Tom Hardy's Career Post-"Inception"
-
-In this section we study the case of Tom Hardy which will serve as a compelling situation illustrating the transformative power of collaborations and breakout roles. Following his standout performance in Christopher Nolan's Inception, Hardy's journey catapulted into a realm of high-profile projects, setting a stage for a career trajectory marked by versatility and acclaim. Some of the notable works of Tom Hardy post-Inception are: 
-
-- **"The Dark Knight Rises":**
-  - Hardy's role as the formidable Bane showcased his versatility and cemented his status as a leading actor in Hollywood.
-
-- **"Mad Max: Fury Road":**
-  - A lead role in this film marked a critical and commercial success, demonstrating Hardy's range and mass appeal.
-
-- **"Venom"** in the Superhero Genre:
-  - His portrayal in "Venom" solidified Hardy's capability to anchor a blockbuster film with his dynamic performance.
-
-- **"Peaky Blinders" - A Critically Acclaimed Series:**
-  - Although not in our dataset as it is a TV series, Hardy's involvement in Peaky Blinders highlighted his skill in long-form storytelling, adding a significant layer to his acting portfolio.
-
-This analysis of Hardy's career stands as a beacon, illuminating the potential ripple effect that breakout roles and collaborations with esteemed directors can have on an actor's path. As we delve deeper into the industry landscape, this case becomes a cornerstone for extrapolating and understanding similar phenomena that shape the journeys of actors within the cinematic sphere.
-
-The graphs below display the difference in movie box office revenues and vote average before and after Tom Hardy's appearence in the Inception. This serves as a prime example of how strategic collaborations with notable directors and producers can not only diversify an actor's portfolio but also significantly boost their marketability and box office draw. This pattern is a testament to the power of strategic collaborations in the film industry to propel an actor's career to new heights.
-
-![TomHardy-revenue](/img/TomHardy-revenue.png)
-
-![TomHardy-vote](/img/TomHardy-vote.png)
-
 ## Careers Evolution
 
 Within the dynamic evolution of an actor's career lies a fascinating journey marked by the genres they traverse—a trajectory that not only mirrors personal growth and evolving artistic inclinations but also mirrors the ever-shifting landscape of audience expectations and industry trends. As actors age, they may transition from one genre to another for various reasons. These shifts could be driven by a range of factors, including personal choice, typecasting, changes in the types of roles offered to them as they age, or even a strategic response to evolving trends within the film industry. In the early stages of their careers, actors might be more inclined to experiment with different genres or take on roles that challenge them in various ways. This period is often characterized by a quest for establishing a foothold in the industry, where versatility and a wide range of roles can be advantageous. As actors establish themselves, certain patterns might emerge, reflecting their strengths or audience preferences. For instance, an actor known for compelling dramatic performances might increasingly find themselves sought after for similar roles. Join us as we decipher the complex interplay between actors, genres, and the ever-evolving landscape of cinematic storytelling.
@@ -307,8 +286,28 @@ The plot below displays the distribution of movie genres against the age of Robe
 
 ![age-DeNiro](/img/age-DeNiro.png)
 
-<iframe src="./img/network_graph.html" height="500" width="100%"></iframe>
+## Employing Topic Modeling to Characterize Movie Genres
 
-![selfie](/img/selfie.png)
+In the dynamic world of cinema, classifying and understanding movie genres has always sparked both artistic and analytical interest. With advanced data analysis techniques coming to the fore, we've embraced new methods to explore the subtleties of film genres more deeply. Utilizing LDA (Latent Dirichlet Allocation) for topic modeling, we've been able to generate distinct topic distributions for each movie in our dataset.
+
+The topics we identified are as follows:
+
+Topic 0: "Action/Adventure/Sci-Fi"
+Topic 1: "Horror/Thriller"
+Topic 2: "Drama"
+Topic 3: "Comedy"
+Topic 4: "Other"
+Topic 5: "Romance"
+
+Utilizing these topics, we crafted plots illustrating 'Average Box Office Revenue by Age Group and Dominant Topic' and 'Average Popularity by Age Group and Dominant Topic'.
+
+![borevstopic](/img/boprevstopic.png)
+![poprevstopic](/img/poprevstopic.png)
+
+Our analysis of these plots revealed that comedy, overall, enjoys the highest popularity and revenue across various age groups. This is in line with general expectations, given that comedy films often cater to a broad audience and are typically family-friendly.
+
+On the other hand, horror films have shown to be particularly profitable, even among actors in older age groups. This could be a reflection of the limited number of actors who are inclined to take on roles in horror movies.
+
+Overall, our findings do not suggest a significant shift in genre preference among actors based on the popularity or financial success of different genres across age groups. This indicates that other factors, perhaps related to the appropriateness of roles or specific actor profiling, might play a more pivotal role in guiding genre choices throughout an actor's career.
 
 ![merrychristmas](/img/merrychristmas.png)
