@@ -124,10 +124,7 @@ The bar chart presents a clustered distribution of ethnicities among actors, ind
 
 Next, we turn our attention to an analysis of the average revenue per actor, categorized by ethnicity and normalized for accuracy. 
 
-<div style="display: flex; flex-direction: row;">
-    <img src="./img/assem2.jpeg" alt="Image 1" style="width: 45%;">
-    <img src="./img/assem3.jpeg" alt="Image 2" style="width: 45%;">
-</div>
+![assem4](/img/assem4.jpeg)
 
 This examination reveals a noteworthy pattern: certain ethnic groups appear to outperform others in terms of revenue. However, this observation requires a nuanced understanding. The apparent overperformance may be attributed to a relatively smaller number of actors within these ethnicities, potentially skewing the results. To ensure a more representative analysis, we refine our focus to include only those ethnic groups represented by more than 10 actors. This step is vital to gain a clearer perspective on the financial implications of ethnic diversity in film casting.
 
@@ -149,10 +146,10 @@ We only report the final regression:
 | Dependent Variable                   | Coefficient       | P-value |
 |:-------------------------------------|:------------------|:--------|
 | Intercept                            | -0.3545           |  0.000  |
-| Average Rating                       | 0.0921            |  0.000  |
-| Popularity                           | 0.2480            |  0.000  |
-| Budget                               | 0.3451            |  0.000  |
-| Weighted Average Ethnicity Match     | 0.0086            |  0.000  |
+| Average Rating                       | +0.0921           |  0.000  |
+| Popularity                           | +0.2480           |  0.000  |
+| Budget                               | +0.3451           |  0.000  |
+| Weighted Average Ethnicity Match     | +0.0086           |  0.000  |
 
 As you can see, our linear regression model brings into focus the subtle yet significant role of ethnicity in a movie's box office draw. The 'weighted average ethnicity match' emerges with a positive coefficient, indicating that an alignment between the actors' ethnicities and the movie's release region does resonate with revenue generation, even though more quietly than its co-stars in the model. This variable, while significant, does not command the stage alone. It shares the spotlight with heavy hitters like budget and popularity, which hold sway with larger coefficients, underscoring their more pronounced influence on a film's financial outcome.
 
