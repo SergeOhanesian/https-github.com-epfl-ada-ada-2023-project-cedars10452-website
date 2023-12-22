@@ -124,7 +124,7 @@ The bar chart presents a clustered distribution of ethnicities among actors, ind
 
 Next, we turn our attention to an analysis of the average revenue per actor, categorized by ethnicity and normalized for accuracy. 
 
-![assem4](/img/assem4.jpeg)
+![assem4](/img/assem4.jpg)
 
 This examination reveals a noteworthy pattern: certain ethnic groups appear to outperform others in terms of revenue. However, this observation requires a nuanced understanding. The apparent overperformance may be attributed to a relatively smaller number of actors within these ethnicities, potentially skewing the results. To ensure a more representative analysis, we refine our focus to include only those ethnic groups represented by more than 10 actors. This step is vital to gain a clearer perspective on the financial implications of ethnic diversity in film casting.
 
