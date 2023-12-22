@@ -306,7 +306,7 @@ Topic 5: "Romance"
 
 Utilizing these topics, we crafted plots illustrating 'Average Box Office Revenue by Age Group and Dominant Topic' and 'Average Popularity by Age Group and Dominant Topic'.
 
-![borevstopic](/img/boprevstopic.png)
+![borevstopic](/img/borevstopic.png)
 
 ![poprevstopic](/img/poprevstopic.png)
 
