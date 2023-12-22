@@ -2,23 +2,14 @@
 
 ## Abstract
 
-The global film industry, estimated to be worth over $136 billion, represents an intricate tapestry of cultural, economic, and artistic elements. This project delves into the nuanced realms of actor success, movie performance, and the impact of ethnicity and collaboration in the industry.
+Hey there! Let's dive into a world where the glamour of Hollywood meets the grind of research. We're setting out on an adventure, not just to crunch numbers and browse through databases, but to unravel some of the most intriguing mysteries of the film world. Think of it as our own cinematic quest, where we’re not just spectators but active explorers in the vibrant universe of movies.
 
-Firstly, This research investigates how casting high-profile actors, influences a movie's success and the career trajectory of co-stars. Furthermore, the study explores the effects of an actor's ethnicity on both their personal success and the international reception of their films, considering the evolving global audience demographics. The influence of accolades, such as Oscars and Golden Globes, on an actor's subsequent roles and career longevity forms a critical aspect of this analysis. Additionally, collaboration with renowned directors and producers is scrutinized for its role in shaping an actor's career, akin to Leonardo DiCaprio's frequent partnerships with Martin Scorsese.
-
-Using comprehensive databases like the CMU Movie Summary Corpus, as well as other sources, this research aims to decode patterns in the careers of successful actors and the evolution of their role choices
+In our journey, we're asking some pretty cool questions. Ever wondered if sharing the screen with big stars can give an actor's career a turbo boost? Or how about the way an actor's background and ethnicity play into their stardom and the global charm of the movies they're in? We're also curious about the glitter of awards – do those shiny Oscars and Golden Globes really open doors to new realms of roles and opportunities? Just look at Tom Hardy, whose career skyrocketed to new heights with each collaboration with award-winning directors. Then there's the dynamic journey of Robert De Niro, seamlessly shifting from gripping dramas, such as Goodfellas or Casino to heartwarming comedies, such as The Intern – a perfect example of how adaptability and strategic collaborations can sculpt an actor's career path.
 
 ## Introduction
 
-Step onto the grand stage of the global film industry, a captivating realm where creativity meets commerce, and individual talent intertwines with cultural dynamics. In this intricate tapestry of storytelling, economics, and artistry, the actors stand as central figures, their performances shaping not only the narratives but also the trajectory of entire cinematic experiences.
-
-Imagine the electric charge that surges through a film when high-profile actors grace its cast—how their presence not only elevates the story but often sets in motion a ripple effect that touches the careers of their co-stars. Yet, beneath the glamour lies a deeper exploration awaiting us—one that examines the profound impact of an actor's ethnicity on their personal success and the reception of their films in an ever-evolving global landscape.
-
-Join us on a journey that scrutinizes the complicated interplay between accolades such as Oscars and Golden Globes, and an actor's subsequent career choices, unlocking the doors to the realm of career longevity and role selection. But it doesn't stop there. This journey also delves into the symbiotic relationships actors form with renowned directors and producers, revealing how these collaborations sculpt and define careers.
-
-Our voyage through the extensive databases of the CMU Movie Summary Corpus and other rich sources seeks to decipher the patterns ingrained in the careers of these eminent actors. From decoding the choices they make to understanding the evolution of their roles, this exploration aims to unravel the hidden threads that weave the fabric of success in the realm of cinema.
-
-So, embark with us as we unravel the enigmatic paths that successful actors tread, unveiling the profound impact of their choices, their collaborations, and the ever-shifting dynamics of the global cinematic landscape.
+Picture this: the film industry, a radiant mosaic of stories, dreams, and big bucks. At its heart are actors, the stars who bring these tales to life. Our mission? To peek behind the curtain and see what makes these stars shine. We'll explore the star-studded impact of acting alongside Hollywood giants, the diverse colors of ethnicity and their role in an actor's rise to fame, and the gleaming allure of awards and their afterglow on careers. We're also keen to uncover the secret sauce in those power-packed collaborations between actors and top-notch filmmakers.
+Why are we doing all this, you ask? Picture a young actor, stepping onto the red carpet for the first time, eyes wide with dreams. Through our research, we want to map the roads they might travel, the hurdles they could face, and the triumphs that await. It’s a journey of discovery, to understand not just the 'what' but the 'why' behind the curtains of cinema. Let’s roll! 🎬
 
 ## Unveiling the Influence: the Career Trajectory of Non-Award-Winning Peers due to the Collaboration with Award-Winning Actors
 
