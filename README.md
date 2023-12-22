@@ -283,25 +283,30 @@ Exploring the relationship between an actor's age and the distribution of movie 
 
 From this plot we can take away some interesting observations:
 
-**Drama Movies**
-For drama movies, there's an observable increase in participation with the age of the actors. This trend might stem from the depth and complexity of dramatic roles, which older actors, with their wealth of experience and nuanced understanding of human emotions, are often more adept at portraying. Their life experience lends authenticity and gravitas to these roles, making them particularly effective in dramatic narratives.
+### The Evolution of Genres in an Actor's Career
 
-**Fantasy Films**
-In fantasy films, a similar increase is noted with older actors. This could be attributed to the fact that many fantasy narratives require seasoned, wise characters, like wizards or elders. Roles exemplified by Dumbledore in "Harry Potter" or Gandalf in "The Lord of the Rings" are prime examples. Older actors bring a believable sense of wisdom and historical depth to these characters, enhancing the storytelling.
+#### The Depth of Drama
 
-**Comedy Films**
-On the other hand, comedy films show a decrease in participation by older actors. This might be due to the physical demands of physical comedy, or the themes and situations in comedies that often resonate more with a younger demographic. Additionally, as the comedy genre evolves with changing cultural references and styles, younger actors may be perceived as more relatable to the target audience.
+As actors mature, there's a noticeable gravitation towards drama. This genre, rich in complexity, seems to align well with the depth of experience that comes with age. Seasoned actors, armed with a nuanced understanding of life's intricacies, often find a resonant match in the dramatic roles that demand such depth. It's where their journey through life enriches their portrayal on screen, lending authenticity and weight to the narrative.
 
-These trends highlight not just individual actor choices, but also broader industry practices and audience expectations, reflecting the dynamic interplay between career trajectories, industry trends, and cultural shifts. For the purpose of readability, in the above plot, we tried to only include some of the most prominent genres in the film industry. The database contains a substantial amount of very detailed genres, which we will try to group as we proceed.
+#### The Wisdom in Fantasy
+
+Fantasy films, too, often see an uptick in participation from older actors. Here, age brings with it a sense of wisdom, a crucial ingredient for roles like the venerable wizard or the sage elder. Older actors, with their air of lived wisdom, breathe life into these fantastical characters, making them believable anchors in a world of imagination.
+
+#### The Lightness of Comedy
+
+Conversely, comedy tends to be a younger actor's playground. Perhaps it's the physicality of comedic roles or the genre's ever-evolving nature, resonating more with younger audiences and their experiences. As actors age, their presence in comedy seems to wane, possibly a reflection of the genre’s demanding nature or the shifting landscape of humor and cultural references.
+
+These genre trends weave a tapestry that speaks to more than just personal choice. They reflect broader patterns in the industry and audience preferences, painting a picture of how actors navigate the changing seas of cinematic demand and opportunity.
 
 ### Genre Evolution: The Example of Robert De Niro
 
-Investigating the career trajectories of high-profile actors offers valuable insights into how genre preferences evolve over time. A prime example is Robert De Niro, whose early career was marked by intense drama movies and iconic gangster roles. His performances in films like "Taxi Driver" and "Raging Bull" showcased his ability to bring depth and intensity to complex characters, while his roles in "Goodfellas" and "The Godfather II" cemented his reputation as a formidable presence in the gangster genre.
-
-However, in his later career, De Niro exhibited a notable shift in the types of roles he chose. He began to appear more frequently in comedies and lighter genres, a departure from the intense, often brooding characters of his earlier years. This transition can be seen in films like the "Meet the Parents" trilogy and "The Intern," where he embraced more comedic, approachable characters. This evolution in De Niro's career could be indicative of a desire to explore different facets of his acting abilities or possibly a response to changing audience expectations and industry trends.
+Take Robert De Niro, for instance. His early career was defined by intense drama and iconic roles in the underworld of crime cinema. His performances in "Taxi Driver" and "Raging Bull" showcased a raw intensity, while "Goodfellas" and "The Godfather II" solidified his standing in the gangster genre. Yet, as his career progressed, De Niro displayed a remarkable pivot. He began to embrace the lighter, more humorous side of cinema. This transition, evident in the "Meet the Parents" series and "The Intern," suggests an exploration of different facets of his talent or perhaps an adaptation to the evolving landscape of audience preferences and industry trends. In sum, an actor's genre journey is more than a series of roles. It's a narrative of adaptation, growth, and response to the ever-changing world of cinema. As we delve deeper, we uncover not just the stories they tell on screen but the underlying story of their artistic evolution.
 
 The plot below displays the distribution of movie genres against the age of Robert De Niro at the time of release. 
 
 ![age-DeNiro](/img/age-DeNiro.png)
 
 <iframe src="./img/network_graph.html" height="500" width="100%"></iframe>
+
+![selfie](/img/selfie.png)
