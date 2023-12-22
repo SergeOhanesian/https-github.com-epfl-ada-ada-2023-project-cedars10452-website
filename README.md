@@ -1,7 +1,5 @@
 # Unraveling the Dynamics of Star Power, Ethnicity, and Collaborative Influence in Film Success
 
-## Abstract
-
 Hey there! Let's dive into a world where the glamour of Hollywood meets the grind of research. We're setting out on an adventure, not just to crunch numbers and browse through databases, but to unravel some of the most intriguing mysteries of the film world. Think of it as our own cinematic quest, where we’re not just spectators but active explorers in the vibrant universe of movies.
 
 In our journey, we're asking some pretty cool questions. Ever wondered if sharing the screen with big stars can give an actor's career a turbo boost? Or how about the way an actor's background and ethnicity play into their stardom and the global charm of the movies they're in? We're also curious about the glitter of awards – do those shiny Oscars and Golden Globes really open doors to new realms of roles and opportunities? Just look at Tom Hardy, whose career skyrocketed to new heights with each collaboration with award-winning directors. Then there's the dynamic journey of Robert De Niro, seamlessly shifting from gripping dramas, such as Goodfellas or Casino to heartwarming comedies, such as The Intern – a perfect example of how adaptability and strategic collaborations can sculpt an actor's career path.
