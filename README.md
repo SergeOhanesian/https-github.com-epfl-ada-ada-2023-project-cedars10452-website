@@ -110,50 +110,53 @@ The revelations from our initial observations present an intriguing narrative th
 
 ## Cultural Canvases on the Global Screen
 
-In the global film industry, an actor's ethnicity weaves an intricate thread within the fabric of success and audience reception. The influence of an actor's ethnicity on their trajectory within the industry and the international resonance of their films stands as a multifaceted terrain waiting to be explored. This exploration delves beyond the performances themselves, seeking to unravel the nuanced interplay between an actor's cultural background and their journey towards success. How does an actor's ethnicity affect their success and the international reception of their films? This research question serves as a gateway into understanding the different ways in which an actor's ethnicity functions as both a defining factor and a dynamic force within the global cinematic panorama. Join us as we navigate this compelling terrain, dissecting the profound impact of ethnicity on an actor's journey to success and the resonant echoes it creates within global audiences.
+As we delve deeper into the film industry's intricate world, our next stop is the role of an actor's ethnicity in the success and appeal of movies. This isn't just about star power; it's an exploration of how cultural diversity influences global audience connections.
 
 ### A First Look at the Current Actors' Ethnicities
 
-Before delving deeper into our analysis, let's take an initial glimpse into the diverse landscape of current actors. This section offers a panoramic view, highlighting the representation and distribution of actors across various ethnic groups within the cinematic sphere. By examining the numbers and proportions within each ethnic category, we unveil a preliminary understanding of the industry's diversity. This initial overview lays the groundwork for our exploration into how these diverse ethnicities navigate the pathways of success and influence the reception of their films on the global stage. The below barplot displays the top 10 ethnicities in terms of number of actors.
+Up next, we'll showcase intriguing data, starting with some graphs that offer a real glimpse into the diversity of the cinematic universe.
 
-![top10ethnicities](/img/top10ethnicities.png)
+![assem1](/img/assem1.jpeg)
+
+The bar chart presents a clustered distribution of ethnicities among actors, indicating a nuanced overlap that suggests the need for a more refined categorization to accurately reflect the diversity within the industry.
 
 ### Average Movie Revenue per Actor per Ethnicity 
 
-This section sheds light on the fascinating correlation between an actor's ethnicity and the average movie revenue they generate. By dissecting these revenue metrics across various ethnicities, we uncover nuanced insights into the economic impact and opportunities experienced within the cinematic realm. This initial glimpse offers a compelling narrative, providing a preliminary understanding of how an actor's ethnicity may intersect with financial success within the dynamic and diverse landscape of film. However, this is a preliminary analysis of whether an actor's ethnicity influences a movie's box office success. By comparing average revenues of movies featuring actors from different ethnicities and then adjusting these averages based on the number of actors in each group, we aim to see whether some ethnicities are associated with higher revenues in a more equitable and representative way. The below barplot displays the top 10 average movie revenues generated per actor by ethnicity.
+Next, we turn our attention to an analysis of the average revenue per actor, categorized by ethnicity and normalized for accuracy. 
 
-![top10revenue-ethnicities](/img/top10revenue-ethnicities.png)
+<div style="display: flex; flex-direction: row;">
+    <img src="./img/assem2.jpeg" alt="Image 1" style="width: 45%;">
+    <img src="./img/assem3.jpeg" alt="Image 2" style="width: 45%;">
+</div>
 
-But we notice that the actor counts for some of these ethnicities are very low (<10). Therefore, we will introduce a cut-off point. We will require at least 10 actors from one ethnicity for the ethnicity to be considered in this part of our analysis. After applying the changes required we got the following results displayed in the below barchart.
+This examination reveals a noteworthy pattern: certain ethnic groups appear to outperform others in terms of revenue. However, this observation requires a nuanced understanding. The apparent overperformance may be attributed to a relatively smaller number of actors within these ethnicities, potentially skewing the results. To ensure a more representative analysis, we refine our focus to include only those ethnic groups represented by more than 10 actors. This step is vital to gain a clearer perspective on the financial implications of ethnic diversity in film casting.
 
-![top10revenue-ethnicities-2](/img/top10revenue-ethnicities-2.png)
+Understanding the commercial impact of casting actors from various ethnic backgrounds is essential. It provides insights into the potential financial benefits or challenges associated with diversity in casting. However, while these initial visualizations offer valuable observations, they are preliminary and not definitive. Therefore, we intend to employ linear regression analysis to delve deeper. This method will enable us to examine the data more rigorously, allowing for a thorough and controlled exploration of the underlying trends and relationships.
+The dominance of certain ethnicities in our initial findings further underscores the importance of grouping them into broader, more representative world regions for a clearer understanding and a more meaningful analysis. 
 
-- These graphs above are a comparison of average movie revenue per actor before and after applying a filter for a minimum of ten actors per ethnicity. It's important to study this because it helps us understand the commercial impact of having actors of different ethnicities in movies. From the first to the second graph, we see a change in which ethnicities appear, suggesting that some groups have fewer actors but still a significant impact on revenue (probably irrelevant due to sample size). 
-- However, because the analysis is not highly conclusive, it's a starting point that indicates the need for a more in-depth look at diversity in film and its economic implications. It shows a glimpse of the potential market performance of movies with diverse casts but requires further study to draw strong conclusions, which we will delve deep into as we proceed.
+### Ethnicity's Role in Box Office Performance
 
-### Average Movie Rating by Ethnicity
+Now, moving on to our more formal and in-depth analysis, we aim to run a linear regression model. For this purpose, we tried to come up with some variables that will allow us to explain the role that actor ethnicity plays in movie success. 
 
-This section unveils an intriguing exploration into the average movie ratings across various ethnicities, offering insights into the intersection between an actor's ethnic background and the critical acclaim their films receive. By analyzing these ratings, we embark on a journey that navigates the subtle interplay between ethnicity and audience perceptions, painting a preliminary picture of how diverse cultural backgrounds may influence the cinematic narratives' reception. This overview serves as a gateway into understanding the dynamic relationship between an actor's ethnicity and the audience's appraisal, providing a nuanced glimpse into the multifaceted dimensions of film appreciation. The below barplot displays the top 10 average movie rating by ethnicity.
+Our analysis takes a creative turn here. How? By examining an actor’s position in the movie credits. The closer to the top, the more significant their role, allowing us to calculate the influence of their ethnic background on the film's box office performance.
+And there's more to our story. We've introduced a 'main actor match' variable – it lights up when the ethnicity of the lead actor aligns perfectly with the movie's primary release region.
 
-![top10rating-ethnicities](/img/top10rating-ethnicities.png)
+Through comprehensive regressions, we're not only isolating these variables but also considering crucial factors like budget and movie ratings. It's essential for a complete picture, ensuring we don't miss any hidden details that could affect our understanding of what truly makes a movie successful.
 
-- The graph shows movie ratings linked to actors' ethnicities. This simple plot indicates that films with Czech actors get the best ratings, but other ethnicities are not far behind. This means people are enjoying movies with actors from different backgrounds in general.
-- It is noteworthy to mention that we used a logarithmic scale on the y-axis because the ratings are very close to each other and the plot doesn't really show any value otherwise.
 
-### Temporal Trends
+We only report the final regression: 
 
-Within the ever-evolving landscape of cinema, the representation of diverse ethnicities stands as a mirror reflecting societal shifts and evolving narratives. This section embarks on a temporal journey, exploring the dynamic flux in ethnicity representation across cinematic epochs. Through a captivating visual narrative, we unveil the changing landscape of ethnic diversity within movies over time. The below plot serves as a lens through which we witness the flow of representation, observing the evolving strides, setbacks, and the nuanced patterns that shape the portrayal of diverse ethnicities across different eras of cinematic storytelling. 
+| Dependent Variable                   | Coefficient       | P-value |
+|:-------------------------------------|:------------------|:--------|
+| Intercept                            | -0.3545           |  0.000  |
+| Average Rating                       | 0.0921            |  0.000  |
+| Popularity                           | 0.2480            |  0.000  |
+| Budget                               | 0.3451            |  0.000  |
+| Weighted Average Ethnicity Match     | 0.0086            |  0.000  |
 
-![temporaltrends-ethnicities](/img/temporaltrends-ethnicities.png)
+As you can see, our linear regression model brings into focus the subtle yet significant role of ethnicity in a movie's box office draw. The 'weighted average ethnicity match' emerges with a positive coefficient, indicating that an alignment between the actors' ethnicities and the movie's release region does resonate with revenue generation, even though more quietly than its co-stars in the model. This variable, while significant, does not command the stage alone. It shares the spotlight with heavy hitters like budget and popularity, which hold sway with larger coefficients, underscoring their more pronounced influence on a film's financial outcome.
 
-- We analyze the ethnicity representation in movies over time to track the progress of diversity and inclusivity in the film industry. It offers a visual insight into how the portrayal of various ethnic groups has changed, potentially reflecting shifts in societal attitudes and stereotypes. The chart indicates a trend towards greater diversity in recent decades, suggesting a response to increased awareness and demand for representation, which makes sense. 
-- It is very important to note that the ethnicities given from the dataset can be clustered into more compact and inclusive ethnicities for better analysis, which we will conduct in the following sections.
-
-### Ethnicity Clustering: Unifying Diversity for Deeper Insights
-
-Immediately we notice a huge overlap between some of the ethnicities (for example white people and White Americans). This will be tackled by clustering these ethnicities into more extensive ones.
-
-In our pursuit of comprehensively understanding the nuanced landscape of ethnic representation within the film industry, we encounter a fascinating convergence of ethnicities that often share substantial similarities. This section ventures into the realm of _Ethnicity Clustering_,which gives a strategic approach aimed at combining overlapping ethnicities into more expansive and cohesive groups. By clustering these ethnicities, we aspire to create a more comprehensive and nuanced lens through which to analyze and interpret the diversity landscape within films. This process is poised to  offer a more holistic understanding of how these collective ethnic representations shape the cinematic narrative. Join us as we embark on this journey of consolidation, seeking to merge similar threads and enrich our exploration of diversity within the captivating world of film.
+This piece of the puzzle is just the start. We're now ready to dig into other areas that might influence a movie's success. Next up, we'll look at the shiny world of awards and the creative partnerships between directors and actors. We expect these areas to shed new light on what really makes a movie a hit.
 
 ## Behind the Scenes Alchemy
 
