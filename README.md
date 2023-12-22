@@ -271,4 +271,4 @@ The plot below displays the distribution of movie genres against the age of Robe
 
 ![age-DeNiro](/img/age-DeNiro.png)
 
-<iframe src="/img/network_graph.html" height="600" width="100%"></iframe>
+<iframe src="./img/network_graph.html" height="600" width="100%"></iframe>
