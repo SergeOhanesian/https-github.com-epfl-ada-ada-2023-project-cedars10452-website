@@ -293,21 +293,23 @@ In the dynamic world of cinema, classifying and understanding movie genres has a
 The topics we identified are as follows:
 
 Topic 0: "Action/Adventure/Sci-Fi"
+
 Topic 1: "Horror/Thriller"
+
 Topic 2: "Drama"
+
 Topic 3: "Comedy"
+
 Topic 4: "Other"
+
 Topic 5: "Romance"
 
 Utilizing these topics, we crafted plots illustrating 'Average Box Office Revenue by Age Group and Dominant Topic' and 'Average Popularity by Age Group and Dominant Topic'.
 
 ![borevstopic](/img/boprevstopic.png)
+
 ![poprevstopic](/img/poprevstopic.png)
 
-Our analysis of these plots revealed that comedy, overall, enjoys the highest popularity and revenue across various age groups. This is in line with general expectations, given that comedy films often cater to a broad audience and are typically family-friendly.
-
-On the other hand, horror films have shown to be particularly profitable, even among actors in older age groups. This could be a reflection of the limited number of actors who are inclined to take on roles in horror movies.
-
-Overall, our findings do not suggest a significant shift in genre preference among actors based on the popularity or financial success of different genres across age groups. This indicates that other factors, perhaps related to the appropriateness of roles or specific actor profiling, might play a more pivotal role in guiding genre choices throughout an actor's career.
+Our analysis of these plots revealed that comedy, overall, enjoys the highest popularity and revenue across various age groups. This is in line with general expectations, given that comedy films often cater to a broad audience and are typically family-friendly. On the other hand, horror films have shown to be particularly profitable, even among actors in older age groups. This could be a reflection of the limited number of actors who are inclined to take on roles in horror movies. Overall, our findings do not suggest a significant shift in genre preference among actors based on the popularity or financial success of different genres across age groups. This indicates that other factors, perhaps related to the appropriateness of roles or specific actor profiling, might play a more pivotal role in guiding genre choices throughout an actor's career.
 
 ![merrychristmas](/img/merrychristmas.png)
