@@ -9,6 +9,53 @@ In our journey, we're asking some pretty cool questions. Ever wondered if sharin
 Picture this: the film industry, a radiant mosaic of stories, dreams, and big bucks. At its heart are actors, the stars who bring these tales to life. Our mission? To peek behind the curtain and see what makes these stars shine. We'll explore the star-studded impact of acting alongside Hollywood giants, the diverse colors of ethnicity and their role in an actor's rise to fame, and the gleaming allure of awards and their afterglow on careers. We're also keen to uncover the secret sauce in those power-packed collaborations between actors and top-notch filmmakers.
 Why are we doing all this, you ask? Picture a young actor, stepping onto the red carpet for the first time, eyes wide with dreams. Through our research, we want to map the roads they might travel, the hurdles they could face, and the triumphs that await. It’s a journey of discovery, to understand not just the 'what' but the 'why' behind the curtains of cinema. Let’s roll! 🎬
 
+## Cultural Canvases on the Global Screen
+
+As we delve deeper into the film industry's intricate world, our next stop is the role of an actor's ethnicity in the success and appeal of movies. This isn't just about star power; it's an exploration of how cultural diversity influences global audience connections.
+
+### A First Look at the Current Actors' Ethnicities
+
+Up next, we'll showcase intriguing data, starting with some graphs that offer a real glimpse into the diversity of the cinematic universe.
+
+![assem1](/img/assem1.jpeg)
+
+The bar chart presents a clustered distribution of ethnicities among actors, indicating a nuanced overlap that suggests the need for a more refined categorization to accurately reflect the diversity within the industry.
+
+### Average Movie Revenue per Actor per Ethnicity 
+
+Next, we turn our attention to an analysis of the average revenue per actor, categorized by ethnicity and normalized for accuracy. 
+
+![assem4](/img/assem4.jpg)
+
+This examination reveals a noteworthy pattern: certain ethnic groups appear to outperform others in terms of revenue. However, this observation requires a nuanced understanding. The apparent overperformance may be attributed to a relatively smaller number of actors within these ethnicities, potentially skewing the results. To ensure a more representative analysis, we refine our focus to include only those ethnic groups represented by more than 10 actors. This step is vital to gain a clearer perspective on the financial implications of ethnic diversity in film casting.
+
+Understanding the commercial impact of casting actors from various ethnic backgrounds is essential. It provides insights into the potential financial benefits or challenges associated with diversity in casting. However, while these initial visualizations offer valuable observations, they are preliminary and not definitive. Therefore, we intend to employ linear regression analysis to delve deeper. This method will enable us to examine the data more rigorously, allowing for a thorough and controlled exploration of the underlying trends and relationships.
+The dominance of certain ethnicities in our initial findings further underscores the importance of grouping them into broader, more representative world regions for a clearer understanding and a more meaningful analysis. 
+
+### Ethnicity's Role in Box Office Performance
+
+Now, moving on to our more formal and in-depth analysis, we aim to run a linear regression model. For this purpose, we tried to come up with some variables that will allow us to explain the role that actor ethnicity plays in movie success. 
+
+Our analysis takes a creative turn here. How? By examining an actor’s position in the movie credits. The closer to the top, the more significant their role, allowing us to calculate the influence of their ethnic background on the film's box office performance.
+And there's more to our story. We've introduced a 'main actor match' variable – it lights up when the ethnicity of the lead actor aligns perfectly with the movie's primary release region.
+
+Through comprehensive regressions, we're not only isolating these variables but also considering crucial factors like budget and movie ratings. It's essential for a complete picture, ensuring we don't miss any hidden details that could affect our understanding of what truly makes a movie successful.
+
+
+We only report the final regression: 
+
+| Dependent Variable                   | Coefficient       | P-value |
+|:-------------------------------------|:------------------|:--------|
+| Intercept                            | -0.3545           |  0.000  |
+| Average Rating                       | +0.0921           |  0.000  |
+| Popularity                           | +0.2480           |  0.000  |
+| Budget                               | +0.3451           |  0.000  |
+| Weighted Average Ethnicity Match     | +0.0086           |  0.000  |
+
+As you can see, our linear regression model brings into focus the subtle yet significant role of ethnicity in a movie's box office draw. The 'weighted average ethnicity match' emerges with a positive coefficient, indicating that an alignment between the actors' ethnicities and the movie's release region does resonate with revenue generation, even though more quietly than its co-stars in the model. This variable, while significant, does not command the stage alone. It shares the spotlight with heavy hitters like budget and popularity, which hold sway with larger coefficients, underscoring their more pronounced influence on a film's financial outcome.
+
+This piece of the puzzle is just the start. We're now ready to dig into other areas that might influence a movie's success. Next up, we'll look at the shiny world of awards and the creative partnerships between directors and actors. We expect these areas to shed new light on what really makes a movie a hit.
+
 ## Unveiling the Influence: the Career Trajectory of Non-Award-Winning Peers due to the Collaboration with Award-Winning Actors
 
 In the dynamic realm of cinema, the partnership between actors within a film isn't merely a collaboration—it's a convergence of talent, influence, and potential career trajectories. Within this tapestry of artistic synergy, the spotlight often shines brightly on those adorned with accolades, but what happens when their paths intersect with those who haven't yet claimed the industry's highest honors?
@@ -70,6 +117,40 @@ In our pursuit of elucidating the influence of collaborations with award-winning
 
 The t-tests and box plots confirm the results obtained previously when we analyzed the dataframes. Both the popularity and the box office revenues are statistically significantly higher for actors who have participated with award-winning actors. These results seem logical; collaborating with award-winning actors, who possess proven talents, likely increases the popularity of the movies. At the same time, these movies may also reach a broader audience, which could be a reason for the higher box office revenues. After all these results provide a starting point to answering the research questions treating the impact of co-starring with high-profile actors.
 
+### Assessing the Influence of Award-Winning Actors on the Careers of Their Peers: A Time Series Analysis
+
+To further evaluate the impact of collaborating with an award-winning actor, we will now transition to a time series approach. This will allow us to assess the cinematic success of actors who have worked with award-winning actors but have never won awards themselves, both before and after these collaborations
+
+In this section, we will perform a time series analysis for each participating actor, comparing their average box office revenues and popularity before and after their first collaboration with an award-winning actor.
+
+To test for statistical significance in the changes in revenues and popularity, we will use the t-test, as done previously. At a 95% confidence level, the t-test for revenue change before and after participation yielded a t-statistic of -27.68. This result leads us to reject the null hypothesis that the mean average revenue per actor before collaborating with an award winner is greater than or equal to the average revenue after such collaboration.
+
+Similarly, the t-test for changes in popularity before and after participation, also conducted at a 95% confidence level, yielded a t-statistic of -17.93. This indicates that we reject the null hypothesis that the mean average popularity per actor before participating with an award winner is greater than or equal to the average popularity after participating
+
+The mean revenues and popularity before and after participation can be resumed in these box plots.
+
+![boxplotstimeseriesrevs](/img/boxplotstimeseriesrevs.png)
+
+![boxplotstimeseriespop](/img/boxplotstimeseriespop.png)
+
+The findings reveal a statistically significant rise in both the average popularity and revenue of actors following their collaborations with award-winning actors. This pattern distinctly demonstrates the beneficial effect that working alongside award-winning actors has on the professional trajectories of their fellow actors.
+
+### Exploring the Pre-Award Collaborations of Award-Winning Actors
+
+Our focus now shifts to examining the projects in which award-winning actors participated before achieving their own accolades.
+
+We define a "beneficial collaboration" between two actors as occurring when one of them had already been recognized with an award prior to the collaboration, while the other had not yet received any awards. This type of collaboration is viewed as potentially advantageous for the yet-to-be-awarded actor.
+
+The histogram below displays the count of actors against the number of their beneficial collaborations. A notable finding is that only 22 out of the 463 award-winning actors in our dataset had won an award before engaging in any collaboration with other award-winning actors.
+
+![histogrambeneficialcollabs](/img/histogrambeneficialcollabs.png)
+
+Furthermore, the results, as illustrated in the pie chart below, indicate that over 97.4% of award-winning actors had already worked with other award-winning actors before securing their own awards.
+
+![piechartbeneficialcollab](/img/piechartbeneficialcollab.png)
+
+In conclusion, the importance of collaborating with award-winning actors cannot be overstated. These partnerships seem to not only enhance the immediate visibility and credibility of actors but also play a pivotal role in paving their path towards receiving accolades in the future. This trend highlights the interconnected nature of success in the film industry, where the collaboration and mentorship of established professionals can have a lasting impact on the careers of up-and-coming actors.
+
 ## Spotlight to Stardom: The Ripple Effect of Awards on Actors' Careers
 
 In this part we embark on a journey through the captivating realm of cinematic stardom, where accolades serve as milestones in the careers of actors, illuminating their trajectory within the ever-evolving landscape of the film industry. This section, delves into the profound influence that awards have on the paths and achievements of these on-screen luminaries. From dissecting the transformative impact of awards on an actor's career trajectory to unraveling the resonance of accolades within the cinematic sphere, this exploration unveils the nuanced dynamics and far-reaching consequences of industry recognition. Join us as we explore the profound ripple effect that awards create, shaping the destinies of those who stand under their luminous spotlight.
@@ -107,53 +188,6 @@ The below plot highlights an increase in the popularity score after an award win
 ### Further Observation: Statistical Analysis
 
 The revelations from our initial observations present an intriguing narrative that hints at the interplay between awards, an actor's career trajectory, and the performance of their films. However, these observations, while compelling, serve as a foundation for deeper exploration. In this section we embark on a more robust statistical analysis to solidify and unveil the underlying causal relationships. Through rigorous statistical tests, our aim is to traverse beyond correlations and establish a more concrete understanding of the cause-and-effect dynamics between awards, an actor's professional success, and the subsequent performance of their films.
-
-## Cultural Canvases on the Global Screen
-
-As we delve deeper into the film industry's intricate world, our next stop is the role of an actor's ethnicity in the success and appeal of movies. This isn't just about star power; it's an exploration of how cultural diversity influences global audience connections.
-
-### A First Look at the Current Actors' Ethnicities
-
-Up next, we'll showcase intriguing data, starting with some graphs that offer a real glimpse into the diversity of the cinematic universe.
-
-![assem1](/img/assem1.jpeg)
-
-The bar chart presents a clustered distribution of ethnicities among actors, indicating a nuanced overlap that suggests the need for a more refined categorization to accurately reflect the diversity within the industry.
-
-### Average Movie Revenue per Actor per Ethnicity 
-
-Next, we turn our attention to an analysis of the average revenue per actor, categorized by ethnicity and normalized for accuracy. 
-
-![assem4](/img/assem4.jpg)
-
-This examination reveals a noteworthy pattern: certain ethnic groups appear to outperform others in terms of revenue. However, this observation requires a nuanced understanding. The apparent overperformance may be attributed to a relatively smaller number of actors within these ethnicities, potentially skewing the results. To ensure a more representative analysis, we refine our focus to include only those ethnic groups represented by more than 10 actors. This step is vital to gain a clearer perspective on the financial implications of ethnic diversity in film casting.
-
-Understanding the commercial impact of casting actors from various ethnic backgrounds is essential. It provides insights into the potential financial benefits or challenges associated with diversity in casting. However, while these initial visualizations offer valuable observations, they are preliminary and not definitive. Therefore, we intend to employ linear regression analysis to delve deeper. This method will enable us to examine the data more rigorously, allowing for a thorough and controlled exploration of the underlying trends and relationships.
-The dominance of certain ethnicities in our initial findings further underscores the importance of grouping them into broader, more representative world regions for a clearer understanding and a more meaningful analysis. 
-
-### Ethnicity's Role in Box Office Performance
-
-Now, moving on to our more formal and in-depth analysis, we aim to run a linear regression model. For this purpose, we tried to come up with some variables that will allow us to explain the role that actor ethnicity plays in movie success. 
-
-Our analysis takes a creative turn here. How? By examining an actor’s position in the movie credits. The closer to the top, the more significant their role, allowing us to calculate the influence of their ethnic background on the film's box office performance.
-And there's more to our story. We've introduced a 'main actor match' variable – it lights up when the ethnicity of the lead actor aligns perfectly with the movie's primary release region.
-
-Through comprehensive regressions, we're not only isolating these variables but also considering crucial factors like budget and movie ratings. It's essential for a complete picture, ensuring we don't miss any hidden details that could affect our understanding of what truly makes a movie successful.
-
-
-We only report the final regression: 
-
-| Dependent Variable                   | Coefficient       | P-value |
-|:-------------------------------------|:------------------|:--------|
-| Intercept                            | -0.3545           |  0.000  |
-| Average Rating                       | +0.0921           |  0.000  |
-| Popularity                           | +0.2480           |  0.000  |
-| Budget                               | +0.3451           |  0.000  |
-| Weighted Average Ethnicity Match     | +0.0086           |  0.000  |
-
-As you can see, our linear regression model brings into focus the subtle yet significant role of ethnicity in a movie's box office draw. The 'weighted average ethnicity match' emerges with a positive coefficient, indicating that an alignment between the actors' ethnicities and the movie's release region does resonate with revenue generation, even though more quietly than its co-stars in the model. This variable, while significant, does not command the stage alone. It shares the spotlight with heavy hitters like budget and popularity, which hold sway with larger coefficients, underscoring their more pronounced influence on a film's financial outcome.
-
-This piece of the puzzle is just the start. We're now ready to dig into other areas that might influence a movie's success. Next up, we'll look at the shiny world of awards and the creative partnerships between directors and actors. We expect these areas to shed new light on what really makes a movie a hit.
 
 ## Behind the Scenes Alchemy
 
